@@ -5,25 +5,24 @@ import DashProfile from "../components/DashProfile";
 import DashPosts from "../components/DashPosts";
 export default function Dashboard() {
   const location = useLocation();
-  const [tab, setTab] = useState('');
+  const [tab, setTab] = useState("");
   useEffect(() => {
     const urlParams = new URLSearchParams(location.search);
-    const tabFromUrl = urlParams.get('tab');
-    if(tabFromUrl){
+    const tabFromUrl = urlParams.get("tab");
+    if (tabFromUrl) {
       setTab(tabFromUrl);
     }
-  }, [location.search])
+  }, [location.search]);
   return (
     <div className="min-h-screen flex flex-col md:flex-row">
-      {/* Sidebar */}
       <div className="md:w-56">
+        {/* Sidebar */}
         <DashSidebar></DashSidebar>
       </div>
       {/* profile */}
-      <div>
-        {tab === 'profile' && <DashProfile></DashProfile>}
-        {tab === 'posts' && <DashPosts></DashPosts>}
-      </div>
+      {tab === "profile" && <DashProfile></DashProfile>}
+      {/* posts */}
+      {tab === "posts" && <DashPosts></DashPosts>}
     </div>
-  )
+  );
 }
