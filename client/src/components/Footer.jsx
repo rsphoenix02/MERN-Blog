@@ -18,11 +18,11 @@ export default function FooterCom() {
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 mt-4 sm:grid-cols-3 sm:gap-6">
-            <div>
+            {/* <div>
                 <Footer.Title title='About'></Footer.Title>
                 <Footer.LinkGroup col>
                     <Footer.Link
-                        href='https://www.100jsprojects.com'
+                        href=''
                         target="_blank"
                         rel='noopener noreferrer'
                     >
@@ -36,7 +36,7 @@ export default function FooterCom() {
                         My Blog
                     </Footer.Link>
                 </Footer.LinkGroup>
-            </div>
+            </div> */}
             <div>
                 <Footer.Title title='Follow Us'></Footer.Title>
                 <Footer.LinkGroup col>
@@ -56,7 +56,7 @@ export default function FooterCom() {
                     </Footer.Link>
                 </Footer.LinkGroup>
             </div>
-            <div>
+            {/* <div>
                 <Footer.Title title='Follow Us'></Footer.Title>
                 <Footer.LinkGroup col>
                     <Footer.Link
@@ -74,7 +74,7 @@ export default function FooterCom() {
                         Terms &amp; Conditions
                     </Footer.Link>
                 </Footer.LinkGroup>
-            </div>
+            </div> */}
           </div>
         </div>
         <Footer.Divider></Footer.Divider>
