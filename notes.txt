@@ -1,0 +1,2 @@
+- You can add/remove/update categories in the CreatePost.jsx file.
+- 
