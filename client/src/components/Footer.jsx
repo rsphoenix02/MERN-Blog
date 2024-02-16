@@ -17,65 +17,9 @@ export default function FooterCom() {
               </span>
             </Link>
           </div>
-          <div className="grid grid-cols-2 gap-8 mt-4 sm:grid-cols-3 sm:gap-6">
-            {/* <div>
-                <Footer.Title title='About'></Footer.Title>
-                <Footer.LinkGroup col>
-                    <Footer.Link
-                        href=''
-                        target="_blank"
-                        rel='noopener noreferrer'
-                    >
-                        100 JS Projects
-                    </Footer.Link>
-                    <Footer.Link
-                        href='/about'
-                        target="_blank"
-                        rel='noopener noreferrer'
-                    >
-                        My Blog
-                    </Footer.Link>
-                </Footer.LinkGroup>
-            </div> */}
-            <div>
-                <Footer.Title title='Follow Us'></Footer.Title>
-                <Footer.LinkGroup col>
-                    <Footer.Link
-                        href='https://www.github.com/rsphoenix02'
-                        target="_blank"
-                        rel='noopener noreferrer'
-                    >
-                        GitHub
-                    </Footer.Link>
-                    <Footer.Link
-                        href='https://www.linkedin.com/in/saquibahmed02/'
-                        target="_blank"
-                        rel='noopener noreferrer'
-                    >
-                        LinkedIn
-                    </Footer.Link>
-                </Footer.LinkGroup>
-            </div>
-            {/* <div>
-                <Footer.Title title='Follow Us'></Footer.Title>
-                <Footer.LinkGroup col>
-                    <Footer.Link
-                        href='#'
-                        target="_blank"
-                        rel='noopener noreferrer'
-                    >
-                        Privacy Policy
-                    </Footer.Link>
-                    <Footer.Link
-                        href='#'
-                        target="_blank"
-                        rel='noopener noreferrer'
-                    >
-                        Terms &amp; Conditions
-                    </Footer.Link>
-                </Footer.LinkGroup>
-            </div> */}
-          </div>
+          {/* <div className="grid grid-cols-2 gap-8 mt-4 sm:grid-cols-3 sm:gap-6">
+
+          </div> */}
         </div>
         <Footer.Divider></Footer.Divider>
         <div className="w-full sm:flex sm:items-center sm:justify-between">
