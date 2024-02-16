@@ -131,9 +131,9 @@ export default function Search() {
               id="category"
             >
               <option value="uncategorized">Uncategorized</option>
-              <option value="reactjs">React.js</option>
-              <option value="nextjs">Next.js</option>
-              <option value="javascript">JavaScript</option>
+              <option value="reactjs">Math</option>
+              <option value="nextjs">Physics</option>
+              <option value="javascript">Chemistry</option>
             </Select>
           </div>
           <Button type="submit" outline gradientDuoTone="purpleToPink">
@@ -143,7 +143,7 @@ export default function Search() {
       </div>
       <div className="w-full">
         <h1 className="text-3xl font-semibold sm:border-b border-gray-500 p-3 mt-5 ">
-          Posts results:
+          Search results:
         </h1>
         <div className="p-7 flex flex-wrap gap-4">
           {!loading && posts.length === 0 && (
