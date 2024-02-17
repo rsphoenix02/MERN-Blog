@@ -55,7 +55,7 @@ export default function Header() {
         <form onSubmit={handleSubmit}>
             <TextInput 
                 type='text'
-                placeholder='search'
+                placeholder='Search...'
                 rightIcon={AiOutlineSearch}
                 className='hidden lg:inline'
                 value={searchTerm}
@@ -114,9 +114,9 @@ export default function Header() {
                     About
                 </Link>
             </Navbar.Link>
-            <Navbar.Link active={path==="/projects"} as={'div'}>
-                <Link to='/projects'>
-                    Projects
+            <Navbar.Link active={path==="/search"} as={'div'}>
+                <Link to='/search'>
+                    Posts
                 </Link>
             </Navbar.Link>
         </Navbar.Collapse>
