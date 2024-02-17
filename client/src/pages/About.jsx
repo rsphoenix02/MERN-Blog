@@ -6,7 +6,7 @@ export default function About() {
       <div className="max-w-2xl mx-auto p-3 text-center">
         <div>
           <h1 className="text-3xl font-semibold text-center my-7">
-            About TheThinkingPen
+            About Us
           </h1>
           <div className="text-md text-gray-500 flex flex-col gap-6">
             <p>
@@ -19,7 +19,7 @@ export default function About() {
             <p>
               <b>Our Mission: Beyond Academics</b>
               <br />
-              In a realm where success is often narrowly defined, TheThinkingPen
+              In a world where success is often narrowly defined, TheThinkingPen
               strives to redefine it. We believe that success extends beyond
               exam scores and parental expectations. Your well-being matters
               just as much as your academic pursuits, and we're here to remind

@@ -16,20 +16,21 @@ export default function Home() {
   }, []);
   return (
     <div>
+      <div className="mx-vh-screen">
+        <img src="https://imgur.com/EjNbk4q.png" alt="banner" />
+      </div>
       <div className="flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto ">
-        <h1 className="text-3xl font-bold lg:text-6xl">Welcome to my Blog</h1>
-        <p className="text-gray-500 text-xs sm:text-sm">
-          Explore a world of inspiration and knowledge. Uncover stories that
-          ignite curiosity, spark creativity, and enrich your journey. Welcome
-          to TheThinkingPen - where every click opens a door to new
-          perspectives.
+        <h1 className="text-3xl font-bold lg:text-6xl">Greetings, Wanderer</h1>
+        <p className="text-gray-500 sm:text-sm">
+          Welcome to TheThinkingPen,  where every step of your JEE preparation journey finds guidance, every doubt is met with clarity, and every moment of feeling lost is transformed into a path of discovery. 
         </p>
-        <Link
+        <h2 className="text-2xl font-bold">Welcome, my friend, to a place crafted just for you.</h2>
+        {/* <Link
           to="/search"
           className="text-xs sm:text-sm text-teal-500 font-bold hover:underline"
         >
           View all posts
-        </Link>
+        </Link> */}
       </div>
       <div className="p-3 bg-amber-100 dark:bg-slate-700">
         <CallToAction />
